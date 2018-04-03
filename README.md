@@ -2,7 +2,7 @@
 
 ## Usage
 ``` javascript
-ExtensionState.installed(function(version) {
+SafariExtensionState.installed(function(version) {
     console.log('Stencil (global.html): Installed');
     var tab = safari.application.activeBrowserWindow.openTab(),
         url = __installedSuccessUrl;
