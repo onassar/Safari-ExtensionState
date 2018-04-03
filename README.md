@@ -1,7 +1,7 @@
 # SafariExtensionState
 
 ## Usage
-Below is an example of how to call the `SafariExtensionState` class. You'd like make the below call from within your `global.html` file, so that after an `install` or `update` action, your code is triggered.
+Below is an example of how to call the `SafariExtensionState` class. You'd likely make the below call from within your `global.html` file, so that after an `install` or `update` action, your code is triggered.
 
 ``` javascript
 SafariExtensionState.installed(function(version) {
