@@ -10,7 +10,7 @@ SafariExtensionState.installed(function(version) {
         url = 'https://website.com/safari/extension/installed';
     tab.url = url;
 });
-ExtensionState.updated(function(version) {
+SafariExtensionState.updated(function(version) {
     console.log('(global.html): Updated');
 });
 ```
