@@ -1,10 +1,12 @@
 
 /**
- * ExtensionState
+ * SafariExtensionState
  * 
+ * @link    https://github.com/onassar/SafariExtensionState
+ * @author  Oliver Nassar <onassar@gmail.com>
  * @abstract
  */
-var ExtensionState = (function() {
+var SafariExtensionState = (function() {
 
     /**
      * __configFilePath
