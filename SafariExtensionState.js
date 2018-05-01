@@ -47,7 +47,7 @@ var SafariExtensionState = (function() {
      * @return  String
      */
     var __getLocalVersion = function() {
-        return localStorage['version'];
+        return localStorage['SafariExtensionState.version'];
     };
 
     /**
@@ -58,7 +58,7 @@ var SafariExtensionState = (function() {
      * @return  void
      */
     var __putLocalVersion = function(version) {
-        localStorage['version'] = version;
+        localStorage['SafariExtensionState.version'] = version;
     };
 
     // Public
