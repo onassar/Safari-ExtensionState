@@ -44,7 +44,7 @@ var SafariExtensionState = (function() {
      * __getLocalVersion
      * 
      * @access  private
-     * @return  String
+     * @return  undefined|String
      */
     var __getLocalVersion = function() {
         return localStorage['SafariExtensionState.version'];
