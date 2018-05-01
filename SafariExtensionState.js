@@ -24,10 +24,10 @@ var SafariExtensionState = (function() {
      * @return  void
      */
     var __getConfigVersion = function(callback) {
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open('get', __configFilePath);
-        xmlhttp.onload = function () {
-            var infoFile = xmlhttp.responseXML,
+        var request = new XMLHttpRequest();
+        request.open('get', __configFilePath);
+        request.onload = function () {
+            var infoFile = request.responseXML,
                 keys = infoFile.getElementsByTagName('key');
             for (var i = 0; i < keys.length; i++){
                 if (keys[i].firstChild.data === 'CFBundleShortVersionString') {
@@ -37,7 +37,7 @@ var SafariExtensionState = (function() {
                 }
             }
         };
-        xmlhttp.send();
+        request.send();
     };
 
     /**
