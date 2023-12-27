@@ -2,8 +2,8 @@
 /**
  * SafariExtensionState
  * 
- * @link    https://github.com/getstencil/SafariExtensionState
- * @author  Oliver Nassar <oliver@getstencil.com>
+ * @link    https://github.com/onassar/SafariExtensionState
+ * @author  Oliver Nassar <onassar@gmail.com>
  * @abstract
  */
 var SafariExtensionState = (function() {
